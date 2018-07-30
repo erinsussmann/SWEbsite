@@ -1,3 +1,67 @@
+/* The official color palletes for SWE are below:
+PRIMARY:
+  SWE PURPLE
+    PMS: 5275 C
+    CMYK: 71/71/31/13
+    RGB: 90/83/119
+    Hex Code: #5A5377
+
+  SWE GOLD
+    PMS: 458C
+    CMYK: 16/17/81/0
+    RGB: 219/197/84
+    Hex Code: #DBC554
+
+  SWE GRAY
+    PMS: Cool Gray 6 C
+    CMYK: 35/29/28/0
+    RGB: 169/169/169
+    Hex Code: #A9A8A9
+
+SECONDARY:
+  SWE BLUE
+    PMS: 7688 C
+    CMYK: 70/28/4/0
+    RGB: 68/151/203
+    Hex Code: #4497CB
+
+  SWE BURGUNDY
+    PMS: 696 C
+    CMYK: 32/81/55/16
+    RGB: 155/71/85
+    Hex Code: #9B4755
+
+  SWE LIGHT PURPLE
+    PMS: 667 C
+    CMYK: 57/63/23/3
+    RGB: 125/104/144
+    Hex Code: #7D6890
+
+  SWE MEDIUM GRAY
+    PMS: 423 C
+    CMYK: 48/39/39/4
+    RGB: 138/140/140
+    Hex Code: #8A8C8C
+
+  SWE DARK GRAY
+    PMS: 425 C
+    CMYK: 65/56/53/29
+    RGB: 84/87/89
+    Hex Code: #545759
+
+  SWE ORANGE
+    PMS: 7577 C
+    CMYK: 7/61/87/0
+    RGB: 229/125/60
+    Hex Code: #E57D3C
+
+  SWE TEAL
+    PMS: 7709 C
+    CMYK: 60/13/25/0
+    RGB: 99/176/187
+    Hex Code: #63B0BB
+*/
+
 body {
   font-size: 20px;
   color: #212529;
@@ -24,14 +88,14 @@ h6 {
 }
 
 a {
-  color: #212529;
+  color: #7D6890;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
   transition: all 0.2s;
 }
 
 a:focus, a:hover {
-  color: #0085A1;
+  color: #7D6890;
 }
 
 blockquote {
@@ -58,13 +122,13 @@ blockquote {
 
 ::-moz-selection {
   color: #fff;
-  background: #0085A1;
+  background: #7D6890;
   text-shadow: none;
 }
 
 ::selection {
   color: #fff;
-  background: #0085A1;
+  background: #7D6890;
   text-shadow: none;
 }
 
@@ -153,13 +217,13 @@ img::-moz-selection {
     color: #212529;
   }
   #mainNav.is-fixed .navbar-brand:focus, #mainNav.is-fixed .navbar-brand:hover {
-    color: #0085A1;
+    color: #7D6890;
   }
   #mainNav.is-fixed .navbar-nav > li.nav-item > a {
     color: #212529;
   }
   #mainNav.is-fixed .navbar-nav > li.nav-item > a:focus, #mainNav.is-fixed .navbar-nav > li.nav-item > a:hover {
-    color: #0085A1;
+    color: #7D6890;
   }
   #mainNav.is-visible {
     /* if the user changes the scrolling direction, we show the header */
@@ -279,7 +343,7 @@ header.masthead .post-heading .meta a {
 
 .post-preview > a:focus, .post-preview > a:hover {
   text-decoration: none;
-  color: #0085A1;
+  color: #7D6890;
 }
 
 .post-preview > a > .post-title {
@@ -307,7 +371,7 @@ header.masthead .post-heading .meta a {
 
 .post-preview > .post-meta > a:focus, .post-preview > .post-meta > a:hover {
   text-decoration: underline;
-  color: #0085A1;
+  color: #7D6890;
 }
 
 @media only screen and (min-width: 768px) {
@@ -371,7 +435,7 @@ header.masthead .post-heading .meta a {
 }
 
 .floating-label-form-group-with-focus label {
-  color: #0085A1;
+  color: #7D6890;
 }
 
 form .form-group:first-child .floating-label-form-group {
@@ -404,8 +468,8 @@ footer .copyright {
 }
 
 .btn-primary {
-  background-color: #0085A1;
-  border-color: #0085A1;
+  background-color: #7D6890;
+  border-color: #7D6890;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
